@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    max-width:960px;
+    margin: 0 auto;
+    padding: 0;
+}
+.logo{
+    width:100px;
+  }
+  nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li{
+    margin: 0 22px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color:#333;
+    font-size:15px;
+  }
+  nav ul li a:hover{
+    text-decoration: underline;
+  }
+  .active{
+    text-decoration: underline;
+  }
+  .signin{
+    margin-left: 100px;
+    background-color: orange;
+    border-radius: 5px;
+  }
+  .Bichodien{
+    max-height:400px;
+  }
+  .menu{
+    display:flex;
+  }

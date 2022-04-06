@@ -1,0 +1,66 @@
+html{
+    font-family: "Poppins", sans-serif;
+  }
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body{
+      margin:0;
+  }
+  .container{
+    max-width:980px;
+    margin: 0 auto;
+    background-image: url("nen.jpg")  ;
+  }
+  .logo{
+    width:100px;
+  }
+  nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li{
+    margin: 0 22px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color:#333;
+    font-size:15px;
+  }
+  nav ul li a:hover{
+    text-decoration: underline;
+  }
+  .active{
+    text-decoration: underline;
+  }
+  .signin{
+    margin-left: 100px;
+    background-color: orange;
+    border-radius: 5px;
+  }
+  .Bichodien{
+    max-height:400px;
+  }
+  .menu{
+    max-height:400px;
+}
+.left-container{
+  float: left;
+}
+.img{
+    margin: 10px;
+    border: 1px;
+   /* display: inline-block;*/
+    float: left;
+}
+.piture{
+  margin-left: 180px;
+}
+.amc{
+  background-color: aliceblue;
+}

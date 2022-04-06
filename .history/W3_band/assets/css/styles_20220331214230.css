@@ -1,0 +1,477 @@
+/*RESET CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:Helvetica,Arial,sans-serif;
+}
+/*
+1. Từ ngoài vào trong
+2. Từ trên xuống dưới
+3. Tổng quan đến chi tiết
+*/
+/*
+1. Vị trí
+2. Kích thước (width, height)
+3. Màu sắc
+4. Kiểu dáng(kiểu chữ, hình tròn, vuông,.)
+*/
+
+
+/* Class chung */
+
+
+.text-white{
+    color:white !important;
+}
+
+.text-center{
+    text-align:center;
+}
+
+.row{
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-half{
+    width: 50%;
+}
+
+
+.col-third{
+    width: 33.33333%;
+}
+
+
+/* Main */
+#main{
+}
+
+
+#header{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    height:46px;
+    background-color:#000;
+    z-index: 1;
+}
+
+
+#nav{
+    display:inline-block;
+}
+
+
+#nav,.subnav{
+    list-style-type: none;
+}
+
+
+#nav > li{
+    display:inline-block;
+}
+
+
+#nav li{
+    position: relative;
+}
+
+
+#nav > li > a{
+    color:#fff;
+    text-transform: uppercase;
+}
+
+
+#nav li a{
+    text-decoration:none;
+    line-height:46px;
+    padding: 0 24px;
+    display:block;
+}
+
+
+#nav li:hover .subnav{
+    display:block;
+}
+
+
+#nav > li:hover > a,
+#nav .subnav li:hover a{
+    color: #000!important;
+    background-color: #ccc!important;
+}
+
+
+#nav .subnav{
+    position: absolute;
+    top: 100%;
+    left:0;
+    display: none;
+    min-width:160px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+#nav .subnav a{
+    color:#000;
+    padding:0 12px;
+    line-height: 38px;
+}
+
+
+#nav .nav-arrow-down{
+    font-size: 14px;
+}
+
+
+#header .search-btn{
+    float: right;
+    padding:0 21px;
+}
+
+
+#header .search-btn:hover{
+    cursor: pointer;
+    color: #fff!important;
+    background-color: #f44336!important;
+}
+
+
+#header .search-icon{
+    color:#fff;
+    font-size: 20px;
+    line-height:46px;
+}
+
+
+#slider{
+    margin-top:46px;
+    padding-top: 50%;
+    background: url('/W3_band/assets/img/slider/slider1.jpeg') top center / cover no-repeat;
+    position: relative;
+}
+
+
+#slider .text-heading{
+    font-weight: 500px;
+    font-size:24px;
+}
+
+
+#slider .text-description{
+    font-size: 14px;
+    margin-top:25px;
+}
+
+
+#slider .text-content{
+    position: absolute;
+    bottom:47px;
+    color:#fff;
+    width:100%; /* can giua */
+    text-align: center;
+}
+
+
+#content{
+}
+
+
+#content .content-section{
+    width:800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#content .section-heading{
+    font-size:30px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing:4px;
+}
+
+
+#content .section-sub-heading{
+    font-size:15px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+
+#content .about-text{
+    margin-top: 25px;
+    font-size: 15px;
+    text-align: justify; /* can deu chu 2 ben */
+    line-height: 1.4;
+}
+
+
+#content .menbers-list{
+    display:flex;
+    margin-top: 48px;
+}
+
+
+#content .menber-name{
+    font-size: 15px;
+}
+#content .menber-img{
+    margin-top: 15px;
+    width:154px;
+    border-radius: 4px;
+}
+
+
+/* Tour section */
+
+
+.tour-section{
+    background-color: #000;
+}
+
+
+.tickests-list{
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+
+.tickests-list li{
+    list-style: none;
+    color:#757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.tickests-list .sold-out{
+    color:#fff;
+    background-color: #f44336;
+    padding: 3px 4px;
+    margin-left: 16px;
+}
+
+
+.tickests-list .quantity{
+    float:right;
+    width:24px;
+    height:24px;
+    margin-right:16px;
+    margin-top: -3px;
+    background-color: #000000;
+    color:#fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+}
+
+
+/* Places */
+
+
+.places-list{
+    display:flex;
+    margin-top: 32px;
+    padding-bottom: 48px;
+}
+
+
+.place-item:hover{
+    transform:scale(1.1);
+    transition: 0.4s;
+}
+
+
+.place-img{
+    width:100%;
+    display:block;
+}
+
+
+.place-img:hover{
+    opacity: 0.6;
+}
+
+
+.place-body{
+    font-size: 15px;
+    padding: 16px;
+    color:#000;
+    background-color: #fff;
+}
+
+
+.place-heading{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.place-time{
+    margin-top:15px;
+    color:#757575;
+}
+
+
+.place-desc{
+    margin-top: 15px;
+    line-height:1.4;
+}
+
+
+.place-buy-btn{
+    color:#fff;
+    background-color: #000;
+    text-decoration: none;
+    padding: 11px 16px;
+    display:inline-block;
+    margin-top:15px;
+    border:none;
+}
+
+
+.place-buy-btn:hover{
+    color:#000;
+    background-color: #ccc;
+}
+
+
+/* Tickests javascript */
+
+
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);  
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal.open{
+    display:flex;
+}
+.modal-container{
+    animation: modalFadeIn ease .6s;
+    background-color: #fff;
+    width:900px;
+    max-width: calc(100% - 32px);
+    min-height: 200px;
+    position: relative;
+}
+
+
+.modal-close{
+    position: absolute;
+    right:0;
+    top:0;
+    color:#fff;
+    padding:12px;
+    opacity: 0.8;
+}
+
+
+.modal-close:hover{
+    color: #000!important;
+    background-color: #ccc!important;
+    cursor: pointer;
+}
+
+
+.modal-header{
+    background-color: #009688!important;
+    height:130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+    color:#fff;
+}
+
+
+.modal-heading-icon{
+    margin-right:16px;
+}
+
+
+.modal-body{
+    padding:16px;
+}
+
+
+.modal-label{
+    display:block;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+
+.modal-input{
+    border: 1px solid #ccc;
+    width:100%;
+    padding:10px;
+    font-size:15px;
+    margin-bottom: 24px;
+}
+
+
+#buy-tickests{
+    width:100%;
+    font-size:15px;
+    padding:18px;
+    background: #009688;
+    color:#ffffff;
+    border:none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+#buy-tickests:hover{
+    color: #000!important;
+    background-color: #ccc!important;
+}
+
+
+.modal-footer{
+    text-align: right;
+    padding:16px;
+}
+
+
+.modal-footer a{
+    color:#2196f3;
+}
+
+
+@keyframes modalFadeIn{
+    from{
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif,helvetica;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(to right top,#ff4988,#ffc781,#fffefc);
+    position: relative;
+}
+
+.effect{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.effect h1{
+    font-size: 200px
+}

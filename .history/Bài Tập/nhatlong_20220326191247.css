@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    max-width:960px;
+    margin: 0 auto;
+    padding: 0;
+}
+.logo{
+    width:100px;
+  }
+  nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li{
+    margin: 0 22px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color:#333;
+    font-size:15px;
+  }
+  nav ul li a:hover{
+    text-decoration: underline;
+  }
+  .active{
+    text-decoration: underline;
+  }
+  .signin{
+    margin-left: 100px;
+    background-color: orange;
+    border-radius: 5px;
+  }
+  .Bichodien{
+    max-height:400px;
+  }
+  .menu{
+    display:flex;
+  }
+  section {
+    background: #F6F3ED;
+    margin: 10px;
+    padding: 20px;
+    border: 1px dotted maroon;
+    width: 240px;
+  }
+.title {
+    background:#783F27;
+    color:#F9AB33;
+    line-height: 4em;
+    font-size: 10px;
+    text-align: left;
+    width:600px;
+  }
+  .price{
+    font-weight: bold;
+    background: #F9AB33;
+    text-align: center;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align: center;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  .dish:hover{
+    transform:scale(1.1);
+    transition: 0.4s;
+  }
+  .dish{
+    width:50%;
+    border-radius: 5px;
+  }
+  .right-container{
+      display:flex;
+      flex-wrap: ;
+  }

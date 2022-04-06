@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+html{
+  font-size: 62.5%;
+  font-family: "Poppins",sans-serif;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  background-image: linear-gradient(to right top,#ff4988,#ffc781,#f0e0c2);
+}
+h1{
+  font-size:2.6rem;
+  font-family: 'BhuTuka Expanded One', cursive;
+}
+p{
+  font-size: 1.6rem;
+  color: #a7a7a7;
+}
+:root{
+  --primary-color: #4797FF;
+  --text-color:#202020;
+}
+.container{
+  max-width:960px;
+  height:100vh;
+  background:#D2D2D2;
+  margin:0 auto;
+  display:flex;
+}
+.left-container{
+  width:40%;
+  background:#ffffff;
+  padding:15px 0 0 20px;
+}
+.right-container{
+  width:100%;
+  height:100vh;
+  padding: 0 0 0 30px;
+  margin-left: 10px;;
+  background:#ffffff;
+}
+.btn-signin{
+  padding-left: 40px;
+  padding-right:70px;
+  padding-bottom:30px;
+  padding-top:10px;
+}
+.dangnhap{
+  padding-left: 0;
+  font-size: 18px;
+}
+.taotaikhoan{
+  color:var(--primary-color);
+  border-bottom: 4px solid #00bbff;
+}
+.dienthongtin{
+  width:100%;
+}
+.name{
+  font-size: 1.6rem;
+  padding-right:20px;
+}
+.form-input{
+  font-family: "Poppins",sans-serif;
+  color:var(--text-color);
+  padding:1.5rem;
+  border-radius: 1rem;
+  outline:none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: 1px solid #eee;
+  background-color: #eee;
+  transition: 0.25s linear;
+  width: 50rem;
+}
+.form-name{
+  font-family: "Poppins",sans-serif;
+  color:var(--text-color);
+  padding:1.5rem;
+  border-radius: 1rem;
+  outline:none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: 1px solid #eee;
+  background-color: #eee;
+  transition: 0.25s linear;
+  width:30rem;
+}
+.form-input:focus, .form-name:focus{
+  border-color:#eee;
+  background-color: white;
+}
+
+.Guimaxacthuc{
+  background-color: orange;
+  border:none;
+  border-radius: 5px;
+  font-family: "Poppins",sans-serif;
+  color:var(--text-color);
+  border-radius: 1rem;
+  outline:none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: 1px solid #eee;
+  transition: 0.25s linear;
+  width: 20rem;
+  height:53px;
+}
+input[type=radio] {
+  border: 0px;
+  width: 20px;
+  height: 2em;
+}
+.input{
+  display:flex;
+}
+.name-input{
+  color:#202020;
+}
+.form-gioitinh{
+  margin-top:12px;
+}

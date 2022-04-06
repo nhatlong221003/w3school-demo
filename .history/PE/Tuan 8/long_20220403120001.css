@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: helvetica, arial, sans-serif;
+}
+
+#header{
+    height:38px;
+    background-color: #713B25;
+    text-align: center;
+}
+
+#nav{
+    display: inline-block;
+}
+
+#nav>li{
+    display: inline-block;
+}
+
